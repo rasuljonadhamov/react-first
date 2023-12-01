@@ -1,0 +1,19 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.sitenav-list li {
+  padding: 0 10px;
+}
+
+.sitenav-list li a {
+  padding: 0 10px;
+}
