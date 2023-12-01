@@ -9,25 +9,32 @@ function Header() {
     <div className="container hero">
       <ul className="sitenav-list">
         <li>
-          <a>About Us</a>
+          <a href="./">About Us</a>
         </li>
         <li>
-          <a>Service</a>
+          <a href="./">Service</a>
         </li>
         <li>
-          <a>Menu</a>
+          <a href="./">Menu</a>
         </li>
         <li>
-          <a>Contact</a>
+          <a href="./">Contact</a>
         </li>
       </ul>
       <div>
-        <img src={Logo} />
+        <img src={Logo} alt="logo" />
       </div>
-      <div className="leftSide">
-        <img src={Search} />
-        <img src={Buy} />
-        <a>Register Now</a>
+      <div className="rightSide">
+        <div className="imgContainer">
+          <img src={Search} alt="logo" />
+        </div>
+        <div className="imgContainer">
+          <img src={Buy} alt="logo" />
+        </div>
+
+        <a className="btn" href="./">
+          Register Now
+        </a>
       </div>
     </div>
   );

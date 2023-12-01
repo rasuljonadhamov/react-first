@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 43px;
 }
 
 .sitenav-list {
@@ -16,4 +18,22 @@
 
 .sitenav-list li a {
   padding: 0 10px;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rightSide .imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f3fbf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
