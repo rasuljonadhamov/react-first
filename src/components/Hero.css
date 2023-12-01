@@ -49,3 +49,19 @@
   border-radius: 50%;
   place-items: center;
 }
+
+.info-list .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 116px;
+  gap: 24px;
+}
+
+.hero__img {
+  background: url("../assets/hero-img.png"), lightgray 50% / cover no-repeat;
+  background-blend-mode: darken;
+}

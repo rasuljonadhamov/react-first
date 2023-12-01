@@ -1,6 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import Arrow from "../assets/arrow.png";
+import HeroImg from "../assets/hero-img.png";
+import User from "../assets/user.png";
+import Star from "../assets/star.png";
+import Harvest from "../assets/harvest.png";
 
 function Hero() {
   return (
@@ -17,6 +21,43 @@ function Hero() {
           <div className="hero-img-wrapper">
             <img src={Arrow} alt="Arrow" />
           </div>
+        </div>
+        <div className="hero-wrapper">
+          <div>
+            <img className="hero__img" src={HeroImg} alt="Arrow" />
+          </div>
+
+          <ul className="info-list">
+            <li className="wrapper">
+              <div className="icon-wrappper">
+                <img src={User} alt="Arrow" />
+              </div>
+              <div>
+                <h1 className="hero-small-title">30K</h1>
+                <p className="hero-small-desc">User Order</p>
+              </div>
+            </li>
+
+            <li className="wrapper">
+              <div className="icon-wrappper">
+                <img src={Star} alt="Arrow" />
+              </div>
+              <div>
+                <h1 className="hero-small-title">20K</h1>
+                <p className="hero-small-desc">Reviews(4.8)</p>
+              </div>
+            </li>
+
+            <li className="wrapper">
+              <div className="icon-wrappper">
+                <img src={Harvest} alt="Arrow" />
+              </div>
+              <div>
+                <h1 className="hero-small-title">300</h1>
+                <p className="hero-small-desc">Items</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
